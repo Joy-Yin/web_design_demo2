@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+</html>
+
+<head>
+    <meta charset="utf-8">
+    <title>限りなく灰色へ/すりぃ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 指定螢幕寬度為裝置寬度，畫面載入初始縮放比例100%-->
+    <meta name="description" content="限りなく灰色へ歌詞"> <!-- 提供搜尋引擎關於網頁頁面內的重要資訊-->
+
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru&family=Noto+Sans+TC&display=swap" rel="stylesheet">
+
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"></script>
+    <script>
+        $(function () {
+            $("main").hide();
+            $("main").fadeIn(3000);
+            $("nav").hide();
+            $("nav").fadeIn(1500);
+            $(".title").hide();
+            $(".title").fadeIn(1000);
+        });
+        $(function () {
+            $("#draggable").draggable();
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>限りなく灰色へ/すりぃ</h1>
+            <h3>Nightcord at 25:00</h3>
+            <h2>作詞/作曲：すりぃ</h2>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="next.html">限りなく灰色へ</a></li>
+                <li><a href="index.html">夜に駆ける</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="draggable-image">
+                <img src="./img/sky.jpg" id="draggable">
+            </div>
+            <div class="lyrics">
+                <p>
+                    才能なんてないからここで一生泣いているんだろ<br>
+                    目に映った景色の青さが羨ましく思っていた<br>
+                    路肩に転がる人生アスファルトの温度下がってる<br>
+                    真夜中を照らす灯りを求めつなぐ電波セカイへと<br>
+                </p>
+                <p>
+                    Rainy, rainy 求めるものだけ描いた<br>
+                    心閉まって待って！本当は叫びたいのよ<br>
+                    Rainy, rainy 強くありたいと願った<br>
+                    声は無情に散って孤独を奏る<br>
+                    指先から伝わっていく虚しさの色<br>
+                    認めてはくれないの？<br>
+                </p>
+                <p>
+                    燻んでしまったの灰色に<br>
+                    こんな才能なんて借り物<br>
+                    まだ人生終わっていないから<br>
+                    諦めんなって誰かの声<br>
+                    見失ってしまったのアイロニー<br>
+                    気付けなくて今も抗ってる<br>
+                    この感情奪って去ってよ<br>
+                    ドロドロになってしまう前に<br>
+                </p>
+                <p>
+                    私だけみて愛を伝えて<br>
+                    (Wow wow) こんなセカイとバイバイバイバイ<br>
+                    (Wow wow) 滲む想いなぞって描いた<br>
+                    (Wow wow) 夢の形に泣いちゃった<br>
+                    (Hey!)<br>
+                </p>
+            </div>
+            <div>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/cwLlHFMlBNQ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <a href="https://youtu.be/cwLlHFMlBNQ" target="_blank"><i class="fas fa-music"></i> 聽歌去</a>
+        </main>
+    </header>
+    <footer>
+        <p class="copyright"><small>&copy; Copyright 2022 homework，本網站為作業之用，如有侵權敬請告知</small></p>
+    </footer>
+</body>
